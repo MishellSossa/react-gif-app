@@ -8,33 +8,33 @@ React Gif Viewer is a React application built with Vite that fetches and display
 
 ## Features
 
-- Fetch and display GIFs from the Giphy API.
-- Responsive design for different devices.
+-   Fetch and display GIFs from the Giphy API.
+-   Responsive design for different devices.
 
 ## Installation
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/MishellSossa/react-gif-app.git
+    ```bash
+    git clone https://github.com/MishellSossa/react-gif-app.git
 
-   ```
+    ```
 
 2. Install the dependencies using Yarn:
 
-   ```bash
-    cd react-gig-app
-    yarn
-   ```
+    ```bash
+     cd react-gif-app
+     yarn
+    ```
 
 # Usage
 
 3. Start the development server.
 
-   ```bash
-    yarn run dev
+    ```bash
+     yarn run dev
 
-   ```
+    ```
 
 4. Enter a category in the input field and click "Search" to fetch and display related GIFs.
 
