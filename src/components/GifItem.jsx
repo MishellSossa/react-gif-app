@@ -1,4 +1,6 @@
+import React from 'react';
 import PropTypes from 'prop-types';
+
 export const GifItem = ({ url, title }) => {
     return (
         <div className="card">
