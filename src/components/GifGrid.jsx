@@ -13,9 +13,9 @@ export const GifGrid = ({ category }) => {
 
     return (
         <>
+            {isLoading && <p>Loading...</p>}
             {/* Render the category as a heading */}
             <h3>{category}</h3>
-
             {/* Render the GIFs in a grid */}
             <div className="card-grid">
                 {gifs.map((gif) => (
@@ -25,3 +25,7 @@ export const GifGrid = ({ category }) => {
         </>
     );
 };
+
+GifGrid.propTypes = {
+    category: PropTypes.string.isRequired
+}
